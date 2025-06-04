@@ -18,16 +18,16 @@ A full-stack web application to manage patient records using:
 ---
 
  Project Structure
-patient_management_system/
-├── backend/
-│ ├── HealthcareApplication.java
-│ ├── Patient.java
-│ ├── PatientRepository.java
-│ ├── PatientService.java
-│ └── PatientController.java
-├── static/
-│ ├── index.html
-│ ├── styles.css
-│ └── script.js
-├── pom.xml
-└── README.md
+patient_management_system:
+->backend:
+. HealthcareApplication.java
+.Patient.java
+. PatientRepository.java
+. PatientService.java
+.PatientController.java
+_->static:
+. index.html
+. styles.css
+. script.js
+. pom.xml
+.README.md
